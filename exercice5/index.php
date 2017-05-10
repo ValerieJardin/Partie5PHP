@@ -13,27 +13,28 @@
         <p>
             <?php
 // Déclaration d'une variable tableau associatif  
-            $department = array(
+            $HautDeFrance = array(
                 '02' => 'Aisne',
-                '60' => 'Oise',
                 '59' => 'Nord',
+                '60' => 'Oise',
+                '62' => 'Pas de Calais',
                 '80' => 'Somme');
 // Affichage du tableau
-            print_r($department)
+            var_dump($HautDeFrance)
             ?>
         </p>
         <!-- Mise en place des boutons de re-direction-->
-        <div class="buttons">
-            <a href="http://partie5/exercice1"><button>Exercice 1</button></a>
-            <a href="http://partie5/exercice2"><button>Exercice 2</button></a>
-            <a href="http://partie5/exercice3"><button>Exercice 3</button></a>
-            <a href="http://partie5/exercice4"><button>Exercice 4</button></a>
-            <a href="http://partie5/exercice5"><button>Exercice 5</button></a>
-            <a href="http://partie5/exercice6"><button>Exercice 6</button></a>
-            <a href="http://partie5/exercice7"><button>Exercice 7</button></a>
-            <a href="http://partie5/exercice8"><button>Exercice 8</button></a>
-            <a href="http://partie5/exercice9"><button>Exercice 9</button></a>
-            <a href="http://partie5/exercice10"><button>Exercice 10</button></a>
+        <div>
+            <a class="button" href="http://partie5/exercice1/index.php" title="Exercice 1">Exercice 1</a>
+            <a class="button" href="http://partie5/exercice2/index.php" title="Exercice 2">Exercice 2</a>
+            <a class="button" href="http://partie5/exercice3/index.php" title="Exercice 3">Exercice 3</a>
+            <a class="button" href="http://partie5/exercice4/index.php" title="Exercice 4">Exercice 4</a>
+            <a class="button" href="http://partie5/exercice5/index.php" title="Exercice 5">Exercice 5</a>
+            <a class="button" href="http://partie5/exercice6/index.php" title="Exercice 6">Exercice 6</a>
+            <a class="button" href="http://partie5/exercice7/index.php" title="Exercice 7">Exercice 7</a>
+            <a class="button" href="http://partie5/exercice8/index.php" title="Exercice 8">Exercice 8</a>
+            <a class="button" href="http://partie5/exercice9/index.php" title="Exercice 9">Exercice 9</a>
+            <a class="button" href="http://partie5/exercice10/index.php" title="Exercice 10">Exercice 10</a>
         </div>
     </body>
 </html>
